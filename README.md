@@ -35,19 +35,16 @@ Track member engagement, voice activity, and moderation team performance effortl
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the Repository
-```bash
-git clone [https://github.com/bikiogirl/ServerStats.git](https://github.com/bikiogirl/ServerStats.git)
-cd ServerStats
 
-2️⃣ Install Dependencies
-Bash
+git clone [https://github.com/bikiogirl/ServerStats.git](https://github.com/bikiogirl/ServerStats.git)
+cd ServerStats 
+
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 Create a .env file based on .env.example:
-Code snippet
 DISCORD_TOKEN=your_discord_bot_token_here
 
-4️⃣ Start the Bot
-Bash
+### 4️⃣ Start the Bot
 python bot.py
